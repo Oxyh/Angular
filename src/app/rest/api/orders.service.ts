@@ -26,7 +26,7 @@ import { Configuration }                                     from '../configurat
 @Injectable()
 export class OrdersService {
 
-    protected basePath = 'https://virtserver.swaggerhub.com/LPA2-Automne2016/commandes/1.0.0';
+    protected basePath = 'https://virtserver.swaggerhub.com/Oxyh/Commandes/1.0.0';
     public defaultHeaders = new HttpHeaders();
     public configuration = new Configuration();
 
